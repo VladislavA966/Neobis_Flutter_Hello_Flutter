@@ -1,16 +1,24 @@
 # todo_app
 
-A new Flutter project.
+Приложение для создания заметок и планов на день. Вы сможете добавлять/изменять/удалять заметки в своем телефоне, чтобы лучше планировать свой день.
 
-## Getting Started
+## Установка
+Для установки и тестирования приложения, вам понадобится установить редактор кода VSCode или Android Studio, скачать и установить Flutter Sdk на ваш комьютер и эмулятор телефона Xcode(для MacOS) или Android Studio(для Windows).
+Чтобы запустить приложение вам дополнительно понадобится установить пакеты
+    - https://pub.dev/packages/flutter_slidable
+    - https://pub.dev/packages/provider
 
-This project is a starting point for a Flutter application.
+## Использование
+    ##Добавление заметок
+Чтобы добавить заметку, запустите приложение и в правом нижнем углу нажмите кнопку добавления, в открывшеся диалогом окне в поле ввода напишите вашу заметку и подтвердите нажатием кнопки "Добавить". 
+    ##Удаление заметок
+Удалить заметку можно двумя способами: Первый способ, свайпните вашу заметку слева на право, перед вами появится кнопка "Удалить". По нажатию кнопки заметка будет удалена. Второй способ, сильным свайпом слева на право по заметке, она так же будет удалена.
+    ##Изменение заметок
+Если вы хотите изменить заметку, свайпните слева на право, перед вами откроется панель кнопок, по нажатию кнопки "Edit", перед вами откроется диалоговое окно, в диалогом окне введите данные и нажмите кнопку "Изменить", чтобы изменные данные вступили в силу. 
 
-A few resources to get you started if this is your first Flutter project:
+## Авторы
+    Для дополнительный информация обращаться 
+        Email: afonin30.10.96@gmail.com
+        TG: @vlad_afonin
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

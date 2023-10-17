@@ -10,7 +10,8 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     TextEditingController controller = TextEditingController();
     TextEditingController editingController = TextEditingController();
-    final vm = context.watch<TodoProvier>();
+    final vm = context.watch<TodoProvider>();
+
     return Scaffold(
       floatingActionButton: FloatingActionButton(
         onPressed: () {
@@ -120,9 +121,12 @@ class MyHomePage extends StatelessWidget {
               ],
             ),
             child: Container(
-              decoration: const BoxDecoration(
-                color: Colors.amber,
-              ),
+              decoration: BoxDecoration(
+                  color: Colors.amber,
+                  border: Border.all(
+                    color: Colors.black,
+                    width: 1,
+                  )),
               height: 70,
               width: double.infinity,
               child: Padding(

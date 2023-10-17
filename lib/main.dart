@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (context) => TodoProvier(),
+      create: (context) => TodoProvider(),
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
         home: MyHomePage(),

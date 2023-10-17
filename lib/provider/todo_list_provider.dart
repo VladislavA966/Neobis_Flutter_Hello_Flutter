@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class TodoProvier extends ChangeNotifier {
-  List todoList = [];
+class TodoProvider extends ChangeNotifier {
+  List<String> todoList = [];
 
   void addPlans({required String controller}) {
     todoList.add(controller);
@@ -16,6 +16,7 @@ class TodoProvier extends ChangeNotifier {
 
   void changePlan(String newPlan, int index) {
     todoList[index] = newPlan;
+
     notifyListeners();
   }
 }
